@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "noEmit": true,
+        "pretty": true,
+        "noUncheckedIndexedAccess": true,
+        "lib": [
+            "DOM"
+        ],
+        "resolveJsonModule": true,
+        "noImplicitAny": true
+    },
+}
