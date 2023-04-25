@@ -9,9 +9,6 @@
         "noEmit": true,
         "pretty": true,
         "noUncheckedIndexedAccess": true,
-        "lib": [
-            "DOM"
-        ],
         "resolveJsonModule": true,
         "noImplicitAny": true
     },
