@@ -1,6 +1,10 @@
 {
+  "private": true,
+  "scripts": {
+    "tsc": "tsc --noEmit"
+  },
   "dependencies": {
     "typescript": "^5.0.4",
-    "vue-i18n": "9"
+    "vuex": "4.1.0"
   }
 }

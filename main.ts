@@ -1,3 +1,15 @@
-import { createI18n } from 'vue-i18n';
+import { createStore } from 'vuex'
 
-createI18n()
+// Create a new store instance.
+const store = createStore({
+    state() {
+        return {
+            count: 0
+        }
+    },
+    mutations: {
+        increment(state) {
+            state.count++
+        }
+    }
+})
